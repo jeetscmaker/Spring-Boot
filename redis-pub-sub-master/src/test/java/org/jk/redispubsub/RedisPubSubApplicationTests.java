@@ -1,4 +1,4 @@
-package com.stackfortech.redispubsub;
+package org.jk.redispubsub;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
