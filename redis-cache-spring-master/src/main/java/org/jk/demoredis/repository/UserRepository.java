@@ -1,9 +1,8 @@
-package com.example.demoredis.repository;
+package org.jk.demoredis.repository;
 
+import org.jk.demoredis.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import com.example.demoredis.domain.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

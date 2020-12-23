@@ -1,7 +1,7 @@
-package com.example.demoredis.controller;
+package org.jk.demoredis.controller;
 
-import com.example.demoredis.domain.User;
-import com.example.demoredis.service.UserService;
+import org.jk.demoredis.domain.User;
+import org.jk.demoredis.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

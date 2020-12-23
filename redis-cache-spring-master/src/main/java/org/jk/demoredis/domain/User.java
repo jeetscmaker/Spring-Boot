@@ -1,4 +1,4 @@
-package com.example.demoredis.domain;
+package org.jk.demoredis.domain;
 
 import java.io.Serializable;
 

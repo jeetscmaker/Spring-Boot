@@ -1,4 +1,4 @@
-package com.example.demoredis;
+package org.jk.demoredis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

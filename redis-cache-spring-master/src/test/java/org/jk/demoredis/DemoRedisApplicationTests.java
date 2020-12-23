@@ -1,4 +1,4 @@
-package com.example.demoredis;
+package org.jk.demoredis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
