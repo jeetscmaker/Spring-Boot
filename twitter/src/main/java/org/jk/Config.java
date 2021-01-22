@@ -9,15 +9,15 @@ import twitter4j.conf.ConfigurationBuilder;
 
 @Configuration
 public class Config {
-	@Bean
-	public Twitter twitter() {
-		ConfigurationBuilder cb = new ConfigurationBuilder();
-		cb.setDebugEnabled(true).setOAuthConsumerKey("*****")
-				.setOAuthConsumerSecret("*****")
-				.setOAuthAccessToken("******")
-				.setOAuthAccessTokenSecret("*****");
-		TwitterFactory tf = new TwitterFactory(cb.build());
-		Twitter twitter = tf.getInstance();
-		return twitter;
-	}
+    @Bean
+    public Twitter twitter() {
+        ConfigurationBuilder cb = new ConfigurationBuilder();
+        cb.setDebugEnabled(true)
+                .setOAuthConsumerKey("*****")
+                .setOAuthConsumerSecret("*****")
+                .setOAuthAccessToken("******")
+                .setOAuthAccessTokenSecret("*****");
+        TwitterFactory tf = new TwitterFactory(cb.build());
+        return tf.getInstance();
+    }
 }
