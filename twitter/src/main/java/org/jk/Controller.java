@@ -21,8 +21,8 @@ public class Controller {
 	@GetMapping("/tweet")
 	public String createTweet() throws TwitterException {
 		String tweet = "";
-		for (int i = 1809; i <= 1900; i++) {
-			tweet = "Tweet-" + i + "\n #SushantDay \nSushant: A personality larger than life.";
+		for (int i = 1; i <= 3; i++) {
+			tweet = "Tweet-" + i + "\n Hello Twitter!!";
 			twitter.updateStatus(tweet);
 		}
 	    return "Thanks";
