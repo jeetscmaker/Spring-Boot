@@ -1,5 +1,10 @@
 package org.jk.configclient.beans;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "environment")
 public class PropertyAccessBean {
 	private String name;
 	private String description;
