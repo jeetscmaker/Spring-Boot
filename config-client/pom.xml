@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.jk</groupId>
-	<artifactId>config-client</artifactId>
+	<artifactId>property-access-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>config-client</name>
+	<name>property-access-service</name>
 	<description>Spring cloud config client</description>
 	<properties>
 		<java.version>11</java.version>
@@ -37,6 +37,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
